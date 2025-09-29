@@ -32,7 +32,7 @@ public class TareaHashMap {
 
         //Se verifica si existe la clave telefono con containsKey.
         if (!informacionPersonal.containsKey("telefono")) {
-            informacionPersonal.putIfAbsent("telefono", "0985854219");//Si no existe se agregarla con putIfAbsent un numero ficticio.
+            informacionPersonal.putIfAbsent("telefono", "0985854219");//Si no existe se agrega con putIfAbsent un numero ficticio.
         }
 
         //Se elimina la clave edad
